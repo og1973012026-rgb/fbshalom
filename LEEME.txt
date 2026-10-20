@@ -1,0 +1,17 @@
+SITIO WEB - Fundación International Beit Shalom, El Remanente
+Basado en la plantilla Kidearn (Home Three).
+
+Abrir: index.html
+
+DONDE PONER TUS IMAGENES (reemplaza el archivo conservando el nombre, o cambia la ruta en index.html;
+busca los comentarios "IMAGEN" en index.html):
+  assets/images/backgrounds/slider-1-1.jpg   Fondo principal (1920x844)
+  assets/images/resources/about-3-1.jpg      Misión / visión y Fines (553x554)
+  assets/images/resources/about-3-2.jpg      Imagen pequeña de Misión y Fines
+  assets/images/program/program-3-1.jpg ... program-3-4.jpg   Objetivos (370x237)
+  assets/images/resources/cta-1.png          Sección final "Dona hoy" (435x492)
+  assets/images/favicons/                    Ícono de la pestaña
+Logo: ahora es texto; en index.html (encabezado) hay un comentario que explica cómo poner una imagen.
+
+ENLACE DE DONACION: al final de index.html, variable ENLACE_DONACION. Si lo dejas vacío, los botones
+"Dona aquí" llevan a la sección Plan de Patrocinador.

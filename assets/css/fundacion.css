@@ -1,0 +1,63 @@
+:root {
+  --dona-red: #e8161b;
+  --dona-red-dark: #c40f14;
+}
+html { scroll-padding-top: 90px; scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.fundacion-logo { display: inline-flex; flex-direction: column; line-height: 1; text-decoration: none; }
+.fundacion-logo__name { font-family: "Fredoka", sans-serif; font-weight: 700; font-size: 28px; color: var(--kidearn-base, #F25334); }
+.fundacion-logo__sub { font-size: 14px; font-weight: 700; letter-spacing: .04em; color: var(--kidearn-black, #0e2039); margin-top: 3px; }
+.fundacion-logo--light .fundacion-logo__sub { color: #fff; }
+.main-header__logo .fundacion-logo { padding: 6px 0; }
+
+.dona-btn {
+  display: inline-flex; align-items: center; gap: 12px;
+  background: var(--dona-red); color: #fff !important;
+  font-family: var(--kidearn-font, "DM Sans", sans-serif); font-weight: 700; font-size: 18px; line-height: 1.1;
+  padding: 12px 28px; border-radius: 999px; text-decoration: none;
+  transition: background-color .25s ease, transform .25s ease;
+}
+.dona-btn .fa-heart { font-size: 22px; color: #fff; }
+.dona-btn:hover { background: var(--dona-red-dark); transform: translateY(-2px); }
+.dona-btn:focus-visible { outline: 3px solid #0e2039; outline-offset: 3px; }
+.dona-btn--header { padding: 9px 22px; font-size: 16px; margin-left: 18px; }
+.dona-btn--header .fa-heart { font-size: 18px; }
+.dona-btn--hero { font-size: 20px; padding: 14px 36px; margin-right: 16px; }
+.dona-btn--hero .fa-heart { font-size: 26px; }
+.dona-btn--cta { font-size: 26px; padding: 18px 44px; gap: 16px; }
+.dona-btn--cta .fa-heart { font-size: 34px; }
+.dona-btn--inline { margin-top: 8px; }
+.main-slider-one__btn { flex-wrap: wrap; align-items: center; row-gap: 14px; }
+@media (max-width: 575px) {
+  .dona-btn--header { padding: 8px 16px; font-size: 14px; margin-left: 10px; }
+  .dona-btn--header .fa-heart { font-size: 15px; }
+  .fundacion-logo__name { font-size: 22px; }
+  .dona-btn--hero { margin-right: 0; }
+  .dona-btn--cta { font-size: 20px; padding: 14px 30px; }
+}
+.mobile-nav__donate { padding: 20px 0 10px; }
+
+.service-card-link { display: block; text-decoration: none; color: inherit; }
+
+.about-three__subhead { font-size: 26px; margin: 22px 0 10px; color: var(--kidearn-black, #0e2039); }
+
+.fundacion-sponsor { padding: 100px 0 40px; }
+.fundacion-sponsor__body { max-width: 760px; margin: 0 auto; text-align: center; }
+.fundacion-sponsor__body p { font-size: 18px; line-height: 1.7; margin: 0 0 16px; }
+.fundacion-sponsor__lead { font-size: 24px !important; font-weight: 700; color: var(--kidearn-base, #F25334); }
+
+.footer-widget__text { color: rgba(255,255,255,.85); margin: 18px 0 18px; max-width: 460px; }
+
+.program-three__top-bg { height: 500px; }
+.program-three .row > [class*="col"] > .program-three__item { height: 100%; }
+
+.main-footer-two .footer-widget__links a { color: rgba(255,255,255,.85); }
+.main-footer-two .footer-widget__links a:hover { color: #fff; }
+
+.dona-btn { white-space: nowrap; }
+@media (max-width: 575px) {
+  .main-header__logo .fundacion-logo__name { font-size: 20px; }
+  .dona-btn--header { padding: 7px 14px; font-size: 13px; gap: 8px; margin-left: 6px; }
+  .dona-btn--header .fa-heart { font-size: 14px; }
+}
